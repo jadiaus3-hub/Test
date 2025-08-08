@@ -1,4 +1,4 @@
-import { type Record, type InsertRecord, type UpdateRecord } from "@shared/schema";
+import { type Record, type InsertRecord, type UpdateRecord } from "../shared/schema";
 import { randomUUID } from "crypto";
 
 export interface IStorage {
