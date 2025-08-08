@@ -28,21 +28,12 @@
       "@/shared/*": ["shared/*"],
       "@/styles/*": ["styles/*"]
     },
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
   },
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
+    "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
-    "client/src",
-    "server"
+    "node_modules"
   ]
 }
